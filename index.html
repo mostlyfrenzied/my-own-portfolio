@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet" />
-  <meta name="description" content="Portfolio of Subhajit Malakar - A passionate developer and learner." />
-  <title>Portfolio</title>
+  <meta name="description" content="Portfolio of Subhajit Malakar - A passionate web developer from Assam Engineering College." />
+  <title>Portfolio - Subhajit Malakar</title>
 </head>
 <body>
 
+  <!-- Header -->
   <header class="l-header">
     <nav class="nav bd-grid" role="navigation" aria-label="Main Navigation">
       <div>
@@ -18,11 +19,11 @@
 
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+          <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </div>
 
@@ -32,62 +33,103 @@
     </nav>
   </header>
 
+  <!-- Main -->
   <main class="l-main">
+
+    <!-- Home Section -->
     <section class="home bd-grid" id="home">
       <div class="home__data">
-         <h1 class="home__title">Hi, <br>I'am <span class="home__title-color">Subhajit</span><br>Web designer</h1>
-         <a href="#" class="button">Contact</a>
+        <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Subhajit</span><br>Web Designer</h1>
+        <a href="#contact" class="button">Contact</a>
       </div> 
 
       <div class="home__social">
-        <a href="#" class="home__social-icon"><i class='bx bxl-linkedin' ></i></a> 
-        <a href="#" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-        <a href="#" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+        <a href="#" class="home__social-icon"><i class='bx bxl-linkedin'></i></a> 
+        <a href="#" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+        <a href="#" class="home__social-icon"><i class='bx bxl-github'></i></a>
       </div>
 
       <div class="home__img">
-        <img src="35AC0665-9321-4635-9FEA-011D38A7A3DD.jpg"alt="">
-        </div>
-        </section>
+        <img src="35AC0665-9321-4635-9FEA-011D38A7A3DD.jpg" alt="Profile Picture">
+      </div>
+    </section>
+
+    <!-- About Section -->
     <section class="about section" id="about">
-        <h2 class="section-title">About</h2>
+      <h2 class="section-title">About</h2>
 
-        <div class="about__container bd-grid">
-            <div class="about__img">
-                <img src="8b811f4f-b9c4-4918-b8d4-725aa685bd5a.jpg" alt="">
-            </div>
-            <div>
-                <h2 class="about__subtitle">I'am Subhajit</h2>
-                <p class="about__text">a passionate web developer pursuing B.Tech in Electronics and Telecommunication Engineering at Assam Engineering College. I specialize in building real-time, responsive web applications, including a custom Weather Watch dashboard designed specifically for my college.</p>
-
-            </div>
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="8b811f4f-b9c4-4918-b8d4-725aa685bd5a.jpg" alt="About Subhajit">
         </div>
+        <div>
+          <h2 class="about__subtitle">I'm Subhajit Malakar</h2>
+          <p class="about__text">
+            A passionate web developer pursuing B.Tech in Electronics and Telecommunication Engineering at Assam Engineering College.
+            I specialize in building real-time, responsive web applications, including a custom Weather Watch dashboard designed specifically for my college.
+          </p>
+        </div>
+      </div>
     </section>
 
+    <!-- Skills Section -->
     <section class="skills section" id="skills">
-        <h2 class="section-title"></h2>
-        <div class="skills__container bd-grid">
-            <div>
-                <h2 class="skills__subtitle">My Skills</h2>
-                <p class="skills__text">
-                    🛠️ **Skills:** HTML, CSS, JavaScript, APIs, Responsive Design, Git  
-                    🌐 **Interests:** Web development, IoT, data visualization, and embedded systems  
-                    📍 **Location:** Guwahati, Assam
-                    </p>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <span class="skills__name">HTML5</span>
-                        </div>
-                        <div>
-                            <span class="skills__percentage">95%</span>
-                        </div>
-                        <div class="skills__bar skills__html"></div>
-                    </div>
-                </div>
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills__container bd-grid">
+        <div>
+          <h2 class="skills__subtitle">My Skills</h2>
+          <p class="skills__text">
+            I enjoy crafting clean and efficient websites using modern technologies. My core strengths include:
+          </p>
+
+          <ul class="skills__text">
+            <li>HTML, CSS, JavaScript</li>
+            <li>API Integration and Responsive Design</li>
+            <li>Git, GitHub and Version Control</li>
+            <li>Web Development, IoT & Embedded Systems</li>
+            <li>Based in Guwahati, Assam</li>
+          </ul>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <span class="skills__name">HTML5</span>
             </div>
+            <div>
+              <span class="skills__percentage">95%</span>
+            </div>
+            <div class="skills__bar skills__html"></div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <span class="skills__name">CSS3</span>
+            </div>
+            <div>
+              <span class="skills__percentage">90%</span>
+            </div>
+            <div class="skills__bar skills__css"></div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <span class="skills__name">JavaScript</span>
+            </div>
+            <div>
+              <span class="skills__percentage">85%</span>
+            </div>
+            <div class="skills__bar skills__js"></div>
+          </div>
+
+        </div>
+      </div>
     </section>
+
+    <!-- Add Work & Contact Sections Here if needed -->
+
   </main>
 
+  <!-- Scripts -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="main.js"></script>
 </body>
