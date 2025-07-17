@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet" />
   <meta name="description" content="Portfolio of Subhajit Malakar - A passionate web developer from Assam Engineering College." />
   <title>Portfolio - Subhajit Malakar</title>
+
+  <!-- CSS and Boxicons -->
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 </head>
 <body>
-
   <!-- Header -->
   <header class="l-header">
     <nav class="nav bd-grid" role="navigation" aria-label="Main Navigation">
       <div>
         <a href="#" class="nav__logo">PORTFOLIO</a>
       </div>
-
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
           <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
@@ -26,8 +26,7 @@
           <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </div>
-
-      <div class="nav__toggle" id="nav-toggle">
+      <div class="nav__toggle" id="nav-toggle" aria-label="Menu">
         <i class='bx bx-menu'></i>
       </div>
     </nav>
@@ -35,45 +34,40 @@
 
   <!-- Main -->
   <main class="l-main">
-
     <!-- Home Section -->
     <section class="home bd-grid" id="home">
       <div class="home__data">
-        <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Subhajit</span><br>Web Developer</h1>
+        <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Subhajit</span><br><span>Web Developer</span></h1>
         <a href="#contact" class="button">Contact</a>
-      </div> 
-
+      </div>
       <div class="home__social">
-        <a href="https://www.linkedin.com/in/subhajit-malakar-a066552b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="home__social-icon">
+        <a href="https://www.linkedin.com/in/subhajit-malakar-a066552b2" target="_blank" class="home__social-icon" aria-label="LinkedIn">
           <i class='bx bxl-linkedin'></i>
-        </a> 
-        <a href="https://www.instagram.com/mostlyfrenzied?igsh=cXZjMHE2NzZud2g5&utm_source=qr" target="_blank" class="home__social-icon">
+        </a>
+        <a href="https://www.instagram.com/mostlyfrenzied" target="_blank" class="home__social-icon" aria-label="Instagram">
           <i class='bx bxl-instagram'></i>
         </a>
-        <a href="https://github.com/mostlyfrenzied" target="_blank" class="home__social-icon">
+        <a href="https://github.com/mostlyfrenzied" target="_blank" class="home__social-icon" aria-label="GitHub">
           <i class='bx bxl-github'></i>
         </a>
       </div>
-      
-
       <div class="home__img">
-        <img src="35AC0665-9321-4635-9FEA-011D38A7A3DD.jpg" alt="Profile Picture">
+        <img src="35AC0665-9321-4635-9FEA-011D38A7A3DD.jpg" alt="Subhajit Malakar - Profile Picture">
       </div>
     </section>
 
     <!-- About Section -->
     <section class="about section" id="about">
       <h2 class="section-title">About</h2>
-
       <div class="about__container bd-grid">
         <div class="about__img">
-          <img src="8b811f4f-b9c4-4918-b8d4-725aa685bd5a.jpg" alt="About Subhajit">
+          <img src="8b811f4f-b9c4-4918-b8d4-725aa685bd5a.jpg" alt="Subhajit working or posing photo">
         </div>
         <div>
           <h2 class="about__subtitle">Subhajit Malakar</h2>
           <p class="about__text">
             A passionate web developer pursuing B.Tech in Electronics and Telecommunication Engineering at Assam Engineering College.
-            I specialize in building real-time, responsive web applications, including a custom Weather Watch dashboard designed specifically for my college.
+            I specialize in building real-time, responsive web applications, including a custom Weather Watch dashboard tailored for my college.
           </p>
         </div>
       </div>
@@ -82,14 +76,10 @@
     <!-- Skills Section -->
     <section class="skills section" id="skills">
       <h2 class="section-title">Skills</h2>
-
       <div class="skills__container bd-grid">
         <div>
           <h2 class="skills__subtitle">My Skills</h2>
-          <p class="skills__text">
-            I enjoy crafting clean and efficient websites using modern technologies. My core strengths include:
-          </p>
-
+          <p class="skills__text">I enjoy crafting clean and efficient websites using modern technologies. My core strengths include:</p>
           <ul class="skills__text">
             <li>HTML, CSS, JavaScript</li>
             <li>API Integration and Responsive Design</li>
@@ -97,47 +87,57 @@
             <li>Web Development, IoT & Embedded Systems</li>
             <li>Based in Guwahati, Assam</li>
           </ul>
-
-          <div class="skills__data">
-            <div class="skills__names">
-              <span class="skills__name">HTML5</span>
-            </div>
-            <div>
-              <span class="skills__percentage">95%</span>
-            </div>
-            <div class="skills__bar skills__html"></div>
-          </div>
-
-          <div class="skills__data">
-            <div class="skills__names">
-              <span class="skills__name">CSS3</span>
-            </div>
-            <div>
-              <span class="skills__percentage">90%</span>
-            </div>
-            <div class="skills__bar skills__css"></div>
-          </div>
-
-          <div class="skills__data">
-            <div class="skills__names">
-              <span class="skills__name">JavaScript</span>
-            </div>
-            <div>
-              <span class="skills__percentage">85%</span>
-            </div>
-            <div class="skills__bar skills__js"></div>
-          </div>
-
+          <div class="skills__data"><div class="skills__names"><span class="skills__name">HTML5</span></div><div><span class="skills__percentage">95%</span></div><div class="skills__bar skills__html"></div></div>
+          <div class="skills__data"><div class="skills__names"><span class="skills__name">CSS3</span></div><div><span class="skills__percentage">90%</span></div><div class="skills__bar skills__css"></div></div>
+          <div class="skills__data"><div class="skills__names"><span class="skills__name">JavaScript</span></div><div><span class="skills__percentage">85%</span></div><div class="skills__bar skills__js"></div></div>
         </div>
       </div>
     </section>
 
-    <!-- Add Work & Contact Sections Here if needed -->
+    <!-- Work Section -->
+    <section class="work section" id="work">
+      <h2 class="section-title">Work</h2>
+      <div class="work__container bd-grid">
+        <div class="work__img">
+          <img src="project1.jpg" alt="Weather App">
+        </div>
+        <div class="work__img">
+          <img src="project2.jpg" alt="Portfolio Website">
+        </div>
+        <div class="work__img">
+          <img src="project3.jpg" alt="IoT Home Automation">
+        </div>
+      </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact__container bd-grid">
+        <form action="#" class="contact__form">
+          <input type="text" placeholder="Your Name" class="contact__input" required>
+          <input type="email" placeholder="Your Email" class="contact__input" required>
+          <textarea placeholder="Your Message" class="contact__input" required></textarea>
+          <input type="submit" value="Send" class="contact__button button">
+        </form>
+      </div>
+    </section>
   </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer__title">Subhajit Malakar</p>
+    <div class="footer__social">
+      <a href="https://www.linkedin.com/in/subhajit-malakar-a066552b2" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/mostlyfrenzied" target="_blank"><i class='bx bxl-github'></i></a>
+    </div>
+    <p>&#169; 2025 All rights reserved</p>
+  </footer>
 
   <!-- Scripts -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="main.js"></script>
 </body>
 </html>
+
+
